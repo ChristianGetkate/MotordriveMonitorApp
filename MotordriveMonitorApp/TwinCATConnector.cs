@@ -29,10 +29,6 @@ namespace MotordriveMonitorApp
             readvalues.Add(location, valueToRead);
         }
 
-        //===================================================================================
-        // This function returns 
-        // Parameters: location (location of variable in PLC program), type (which datatype)
-        //===================================================================================
         public Dictionary<string, uint> ReadValues()
         {
             Dictionary<string, uint> result = new Dictionary<string, uint>();
